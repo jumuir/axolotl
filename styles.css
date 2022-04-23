@@ -5,6 +5,15 @@
   font-family: "Patrick Hand", cursive;
 }
 
+body {
+  background-color: black;
+}
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 0 calc((100vw - 768px) / 2);
+  }
+}
+
 .header {
   background-color: black;
   display: flex;
