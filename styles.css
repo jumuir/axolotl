@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Patrick Hand", cursive;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header h1 {
+  color: white;
+}
+
+.hero {
+  background-color: rgb(0, 0, 0);
+}
+.hero-image {
+  width: 100%;
+  max-height: 100%;
+}
+.hero-image__container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+}
+
+.q-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.q-form {
+  padding-bottom: 3rem;
+}
+
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+.footer-copy {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.footer ul > li {
+  list-style: none;
+}
+.footer-links {
+  display: flex;
+}
+.footer-links img {
+  height: 2rem;
+  padding-right: 1rem;
+}/*# sourceMappingURL=styles.css.map */
